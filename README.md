@@ -6,16 +6,18 @@ TODO
 
 ## What is included?
 ### Typescript
-TODO
+Basic Typescript setup in `tsconfig.json`. Jest support for Typescript in `package.json`.
 ### Linter
 TODO
 ### Prettier
 TODO
-### Navigation
+### Tests
+TODO
+### Debugging
 TODO
 ### Directory structure
 TODO
-### Debugging
+### Navigation
 TODO
 ### State
 TODO
@@ -26,8 +28,6 @@ TODO
 ### Internationalization
 TODO
 ### Deep linking
-TODO
-### Tests
 TODO
 ### CircleCi
 TODO
