@@ -19,8 +19,17 @@ Added extensions:
 * [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) - React specific linting rules for ESLint
 * [eslint-plugin-react-native](https://www.npmjs.com/package/eslint-plugin-react-native) - React Native specific linting rules for ESLint
 * [@react-native-community/eslint-config](https://www.npmjs.com/package/@react-native-community/eslint-config) 
+
+TODO: Add husky
 ### Tests
-TODO
+Jest configuration in `package.json`. 
+Enzyme adapter config and JSDOM replacement is placed in `.testsetup.js`.
+You should place all default modules jest mocks in `.testsetup.js`.
+Additionally: 
+* [react-test-renderer](https://github.com/facebook/react/tree/master/packages/react-test-renderer)
+* [react-native-testing-library](https://github.com/callstack/react-native-testing-library) - Enzyme replacement in case of issues
+
+TODO: e2e - Detox
 ### Debugging
 TODO
 ### Directory structure
