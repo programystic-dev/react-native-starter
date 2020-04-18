@@ -19,6 +19,8 @@ TODO
 TODO
 ### Navigation
 TODO
+### Styles
+TODO
 ### State
 TODO
 ### API
@@ -27,11 +29,11 @@ TODO
 TODO
 ### Internationalization
 TODO
+### Environment Variables
+TODO
 ### Deep linking
 TODO
 ### CircleCi
-TODO
-### Environment Variables
 TODO
 ### Build Types
 TODO
