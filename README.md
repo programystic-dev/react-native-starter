@@ -31,9 +31,66 @@ Additionally:
 
 TODO: e2e - Detox
 ### Debugging
-TODO
+For testing you should use [Flipper](https://fbflipper.com/) which is shipped by default in React Native 0.62.
 ### Directory structure
-TODO
+```bash
+├── .jest
+├── .circleci
+├── android
+├── docs
+├── e2e
+├── ios
+├── node_modules
+├── patches
+├── scripts
+├── src
+│   ├── assets
+│   │   ├── fonts
+│   ├── common
+│   │   ├── hooks
+│   │   ├── locale
+│   │   ├── styles
+│   │   └── utils
+│   ├── components
+│   ├── navigation
+│   ├── screens
+│   │   │   ├── screen1
+│   │   │   │   ├── __tests__
+│   │   │   │   ├── components
+│   │   │   │   └── Screen1.tsx
+│   │   │   └── screen2
+│   ├── services
+│   ├── state
+│   ├── stories
+│   └── App.tsx
+├── storybook
+├── types
+├── .env.files
+├── .testsetup
+├── app.json
+├── index.js
+└── package.json
+```
+`.jest`- Jest folder including cache.
+`.circleci`- CircleCI configuration.
+`android`- Android files.
+`docs`- Place for additional docs.
+`e2e`- Detox e2e tests directory.
+`ios`- IOS files.
+`patches`- In case any patches needed place them here.
+`scripts`- Place for custom scripts ex to clean react or Xcode.
+`scr`- Main application directory.
+`scr/assets`- Assets directory (images, fonts).
+`scr/common`- Common logic like hooks, locale, styles or utils.
+`scr/components`- Shared components directory.
+`scr/navigation`- Navigation config directory.
+`scr/screen`- Application's screens. Screen specific components should be place in its directory under components/.
+`scr/services`- Services like auth0, location, wifi or handling offline state.
+`scr/state`- Application's state.
+`scr/stories`- Storybook stories.
+`scr/storybook`- Storybook config and stories.
+`scr/types`- Application's shared types.
+
 ### Navigation
 TODO
 ### Styles
@@ -41,9 +98,9 @@ TODO
 ### State
 TODO
 ### API
-TODO
+TODO - axios
 ### Error handling
-TODO
+TODO - Sentry
 ### Internationalization
 TODO
 ### Environment Variables
@@ -55,4 +112,14 @@ TODO
 ### Build Types
 TODO
 ### Deploy
+TODO
+
+## Next steps to customize this boilerplate
+### Add custom styles
+TODO
+### Add fonts
+TODO
+### Edit app.json
+TODO
+### Add app icon and splash screen
 TODO
