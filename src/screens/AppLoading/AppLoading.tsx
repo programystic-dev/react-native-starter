@@ -3,7 +3,6 @@
  * TODO Loads all required assets.
  * TODO Handle Splash screen.
  */
-import 'react-native-gesture-handler';
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 

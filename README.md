@@ -7,6 +7,8 @@ TODO
 ## What is included?
 ### Typescript
 Basic Typescript setup in `tsconfig.json`. Jest support for Typescript in `package.json`.
+
+TODO Add proper prop types for screens!
 ### Eslint & Prettier
 Eslint and Prettier configuration is set up in `package.json`.
 Added extensions: 
@@ -106,15 +108,19 @@ TODO
 ### State
 TODO
 ### API
-TODO - axios
-### Error handling
-TODO - Sentry
+TODO Add axios
+### Error boundary
+TODO Add ErrorBoundary component to wrap application and send errors to (Sentry)[https://sentry.io/for/react-native/] as well to analytics.
 ### Internationalization
 TODO
 ### Environment Variables
 TODO
 ### Deep linking
 TODO
+### Add ProgressiveImage component
+TODO
+### Analytics
+TODO Add Segment
 ### CircleCi
 TODO
 ### Build Types
@@ -123,11 +129,13 @@ TODO
 TODO
 
 ## Next steps to customize this boilerplate
-### Add custom styles
-TODO
-### Add fonts
+### Add custom styles and fonts
 TODO
 ### Edit app.json
 TODO
 ### Add app icon and splash screen
+TODO
+### Add PullToRefresh component
+TODO
+### Add NetworkError component
 TODO
