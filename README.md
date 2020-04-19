@@ -92,7 +92,15 @@ For testing you should use [Flipper](https://fbflipper.com/) which is shipped by
 `scr/types`- Application's shared types.
 
 ### Navigation
-TODO
+[React navigation](https://reactnavigation.org/) is used as an app navigation.
+The navigation switches between: 
+* AppLoading component (should rehydrate state and handle assets and splash screen).
+* Auth screens.
+* App screens.
+
+[react-native-screens](https://reactnavigation.org/docs/react-native-screens/) was added to optimize memory usage and performance.
+
+TODO Add state and splash screen.
 ### Styles
 TODO
 ### State

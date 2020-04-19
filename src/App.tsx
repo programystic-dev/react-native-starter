@@ -1,20 +1,9 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { Navigation } from './navigation';
 
 const App = () => {
-  return (
-    <View style={styles.container}>
-      <Text>React Native Starter</Text>
-    </View>
-  );
+  return <Navigation />;
 };
-
-const styles = StyleSheet.create({
-  container: {
-    alignItems: 'center',
-    flex: 1,
-    justifyContent: 'center',
-  },
-});
 
 export default App;
