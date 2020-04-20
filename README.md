@@ -104,7 +104,11 @@ The navigation switches between:
 
 TODO Add state and splash screen.
 ### Styles
-TODO
+[babel-plugin-react-native-class-prop](https://github.com/zeljkoX/babel-plugin-react-native-class-prop) is used to add 'class' prop. Its configuration can be found in `babel.config.js`.
+[Tachyons](http://tachyons.io/) classes are available to use (check tachyons.ts id `src/common/styles`).
+Styles specific for a project should be added same way as tachyons classes in its dedicated file e.g. `projectName.ts` and then imported in `src/common/styles/styles.ts`. Here also define Colors and Fonts classes.
+Added class prop definition for Typescript in `types/index.d.ts`.
+TODO Add class names handler do join styles and class props. For now use class prop AFTER style prop.
 ### State
 TODO Mobx
 ### API

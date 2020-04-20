@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* reactStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactStarterTests.m */; };
+		059E4B7D098E92E34C26BFD0 /* libPods-reactStarter-reactStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A714F1DBA401656DE70026C /* libPods-reactStarter-reactStarterTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +17,9 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* reactStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactStarterTests.m */; };
-		67A53F0F2B536D6DE8CA22AF /* libPods-reactStarter-reactStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CB74786E0D2A603F30F73B /* libPods-reactStarter-reactStarterTests.a */; };
-		9D6FBB28D357BF10458A16DF /* libPods-reactStarter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D32C50C769F0DFA16E387B6 /* libPods-reactStarter-tvOSTests.a */; };
-		CA5CC5B64D7302EA5933AAB0 /* libPods-reactStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9601D723CA0774A0106B045E /* libPods-reactStarter.a */; };
-		F93D5601AD3FF5154D26906B /* libPods-reactStarter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8F992123E0757267523216 /* libPods-reactStarter-tvOS.a */; };
+		34FF99C12D03BC7FCA5A0958 /* libPods-reactStarter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5693937122F279BDAD47E87 /* libPods-reactStarter-tvOSTests.a */; };
+		6469EFDE7543D8FD9FAD3A52 /* libPods-reactStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 512D61E3009A641E6BD6466C /* libPods-reactStarter.a */; };
+		9CFB092845D5AF2270D57301 /* libPods-reactStarter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD3BDCEC937F2418CF91B59 /* libPods-reactStarter-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,22 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactStarter/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactStarter/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactStarter/main.m; sourceTree = "<group>"; };
-		1B38134CE8CAED909FB21E38 /* Pods-reactStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter.release.xcconfig"; path = "Target Support Files/Pods-reactStarter/Pods-reactStarter.release.xcconfig"; sourceTree = "<group>"; };
-		27D1B24381F8F47DEAE93DB8 /* Pods-reactStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter.debug.xcconfig"; path = "Target Support Files/Pods-reactStarter/Pods-reactStarter.debug.xcconfig"; sourceTree = "<group>"; };
+		1AD0DEA033514D0053405719 /* Pods-reactStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter.release.xcconfig"; path = "Target Support Files/Pods-reactStarter/Pods-reactStarter.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* reactStarter-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactStarter-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* reactStarter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactStarter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3282556820A92E54D3690017 /* Pods-reactStarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactStarter-tvOS/Pods-reactStarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		4D32C50C769F0DFA16E387B6 /* libPods-reactStarter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactStarter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54CB74786E0D2A603F30F73B /* libPods-reactStarter-reactStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactStarter-reactStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6367C3D371AB813EF9BC01D1 /* Pods-reactStarter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactStarter-tvOSTests/Pods-reactStarter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7A8F992123E0757267523216 /* libPods-reactStarter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactStarter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9601D723CA0774A0106B045E /* libPods-reactStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F4EC743B268673252A54503 /* Pods-reactStarter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactStarter-tvOSTests/Pods-reactStarter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		A354766B92ED18D5E61C5ED3 /* Pods-reactStarter-reactStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-reactStarterTests.debug.xcconfig"; path = "Target Support Files/Pods-reactStarter-reactStarterTests/Pods-reactStarter-reactStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC1DA5DAC1F651A16404D51F /* Pods-reactStarter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactStarter-tvOS/Pods-reactStarter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3FB662EDC283683337CDBA5A /* Pods-reactStarter-reactStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-reactStarterTests.debug.xcconfig"; path = "Target Support Files/Pods-reactStarter-reactStarterTests/Pods-reactStarter-reactStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44046989DB672E7175A96C22 /* Pods-reactStarter-reactStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-reactStarterTests.release.xcconfig"; path = "Target Support Files/Pods-reactStarter-reactStarterTests/Pods-reactStarter-reactStarterTests.release.xcconfig"; sourceTree = "<group>"; };
+		512D61E3009A641E6BD6466C /* libPods-reactStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DD3BDCEC937F2418CF91B59 /* libPods-reactStarter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactStarter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D433A8EEC54C99CDBFA3F9 /* Pods-reactStarter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactStarter-tvOS/Pods-reactStarter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		790F272A04A9E159A2AF30EA /* Pods-reactStarter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactStarter-tvOSTests/Pods-reactStarter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A714F1DBA401656DE70026C /* libPods-reactStarter-reactStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactStarter-reactStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D575D7BA00DB3079FE8C8C /* Pods-reactStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter.debug.xcconfig"; path = "Target Support Files/Pods-reactStarter/Pods-reactStarter.debug.xcconfig"; sourceTree = "<group>"; };
+		A9119C54C18B3F3C80F55BE0 /* Pods-reactStarter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactStarter-tvOSTests/Pods-reactStarter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5693937122F279BDAD47E87 /* libPods-reactStarter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactStarter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DFBDF7103DF8EE9F518FE4 /* Pods-reactStarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactStarter-tvOS/Pods-reactStarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EE53C46B1801744B54184FBE /* Pods-reactStarter-reactStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactStarter-reactStarterTests.release.xcconfig"; path = "Target Support Files/Pods-reactStarter-reactStarterTests/Pods-reactStarter-reactStarterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67A53F0F2B536D6DE8CA22AF /* libPods-reactStarter-reactStarterTests.a in Frameworks */,
+				059E4B7D098E92E34C26BFD0 /* libPods-reactStarter-reactStarterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5CC5B64D7302EA5933AAB0 /* libPods-reactStarter.a in Frameworks */,
+				6469EFDE7543D8FD9FAD3A52 /* libPods-reactStarter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F93D5601AD3FF5154D26906B /* libPods-reactStarter-tvOS.a in Frameworks */,
+				9CFB092845D5AF2270D57301 /* libPods-reactStarter-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D6FBB28D357BF10458A16DF /* libPods-reactStarter-tvOSTests.a in Frameworks */,
+				34FF99C12D03BC7FCA5A0958 /* libPods-reactStarter-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,28 +141,12 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				9601D723CA0774A0106B045E /* libPods-reactStarter.a */,
-				54CB74786E0D2A603F30F73B /* libPods-reactStarter-reactStarterTests.a */,
-				7A8F992123E0757267523216 /* libPods-reactStarter-tvOS.a */,
-				4D32C50C769F0DFA16E387B6 /* libPods-reactStarter-tvOSTests.a */,
+				512D61E3009A641E6BD6466C /* libPods-reactStarter.a */,
+				7A714F1DBA401656DE70026C /* libPods-reactStarter-reactStarterTests.a */,
+				5DD3BDCEC937F2418CF91B59 /* libPods-reactStarter-tvOS.a */,
+				D5693937122F279BDAD47E87 /* libPods-reactStarter-tvOSTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		79FA6AE5193578A2981AD3A5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				27D1B24381F8F47DEAE93DB8 /* Pods-reactStarter.debug.xcconfig */,
-				1B38134CE8CAED909FB21E38 /* Pods-reactStarter.release.xcconfig */,
-				A354766B92ED18D5E61C5ED3 /* Pods-reactStarter-reactStarterTests.debug.xcconfig */,
-				EE53C46B1801744B54184FBE /* Pods-reactStarter-reactStarterTests.release.xcconfig */,
-				BC1DA5DAC1F651A16404D51F /* Pods-reactStarter-tvOS.debug.xcconfig */,
-				3282556820A92E54D3690017 /* Pods-reactStarter-tvOS.release.xcconfig */,
-				6367C3D371AB813EF9BC01D1 /* Pods-reactStarter-tvOSTests.debug.xcconfig */,
-				9F4EC743B268673252A54503 /* Pods-reactStarter-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +164,7 @@
 				00E356EF1AD99517003FC87E /* reactStarterTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				79FA6AE5193578A2981AD3A5 /* Pods */,
+				A22FBFF2C4836591E980CEA0 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -198,6 +182,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A22FBFF2C4836591E980CEA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2D575D7BA00DB3079FE8C8C /* Pods-reactStarter.debug.xcconfig */,
+				1AD0DEA033514D0053405719 /* Pods-reactStarter.release.xcconfig */,
+				3FB662EDC283683337CDBA5A /* Pods-reactStarter-reactStarterTests.debug.xcconfig */,
+				44046989DB672E7175A96C22 /* Pods-reactStarter-reactStarterTests.release.xcconfig */,
+				74D433A8EEC54C99CDBFA3F9 /* Pods-reactStarter-tvOS.debug.xcconfig */,
+				E3DFBDF7103DF8EE9F518FE4 /* Pods-reactStarter-tvOS.release.xcconfig */,
+				A9119C54C18B3F3C80F55BE0 /* Pods-reactStarter-tvOSTests.debug.xcconfig */,
+				790F272A04A9E159A2AF30EA /* Pods-reactStarter-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactStarterTests" */;
 			buildPhases = (
-				14A5642447877DB2C62D5B00 /* [CP] Check Pods Manifest.lock */,
+				270BFC36A4EC5AB4F808B9F3 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactStarter" */;
 			buildPhases = (
-				DF32A26EF65355288E0E3571 /* [CP] Check Pods Manifest.lock */,
+				57B31F6DB06176F8C01F14E7 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactStarter-tvOS" */;
 			buildPhases = (
-				8985451C751B994442A969D0 /* [CP] Check Pods Manifest.lock */,
+				D163B4764BE221E4CD7A124A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactStarter-tvOSTests" */;
 			buildPhases = (
-				D68C7E8459D9B20698FEFC45 /* [CP] Check Pods Manifest.lock */,
+				2A94BA3BED005F1034343A1E /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -375,7 +375,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		14A5642447877DB2C62D5B00 /* [CP] Check Pods Manifest.lock */ = {
+		270BFC36A4EC5AB4F808B9F3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,43 +397,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		8985451C751B994442A969D0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactStarter-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D68C7E8459D9B20698FEFC45 /* [CP] Check Pods Manifest.lock */ = {
+		2A94BA3BED005F1034343A1E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,7 +419,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DF32A26EF65355288E0E3571 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		57B31F6DB06176F8C01F14E7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -471,6 +449,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-reactStarter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D163B4764BE221E4CD7A124A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactStarter-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -582,7 +582,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A354766B92ED18D5E61C5ED3 /* Pods-reactStarter-reactStarterTests.debug.xcconfig */;
+			baseConfigurationReference = 3FB662EDC283683337CDBA5A /* Pods-reactStarter-reactStarterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -605,7 +605,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE53C46B1801744B54184FBE /* Pods-reactStarter-reactStarterTests.release.xcconfig */;
+			baseConfigurationReference = 44046989DB672E7175A96C22 /* Pods-reactStarter-reactStarterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -625,7 +625,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27D1B24381F8F47DEAE93DB8 /* Pods-reactStarter.debug.xcconfig */;
+			baseConfigurationReference = A2D575D7BA00DB3079FE8C8C /* Pods-reactStarter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -652,7 +652,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B38134CE8CAED909FB21E38 /* Pods-reactStarter.release.xcconfig */;
+			baseConfigurationReference = 1AD0DEA033514D0053405719 /* Pods-reactStarter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -673,7 +673,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC1DA5DAC1F651A16404D51F /* Pods-reactStarter-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 74D433A8EEC54C99CDBFA3F9 /* Pods-reactStarter-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,7 +701,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3282556820A92E54D3690017 /* Pods-reactStarter-tvOS.release.xcconfig */;
+			baseConfigurationReference = E3DFBDF7103DF8EE9F518FE4 /* Pods-reactStarter-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -729,7 +729,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6367C3D371AB813EF9BC01D1 /* Pods-reactStarter-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = A9119C54C18B3F3C80F55BE0 /* Pods-reactStarter-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -756,7 +756,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F4EC743B268673252A54503 /* Pods-reactStarter-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 790F272A04A9E159A2AF30EA /* Pods-reactStarter-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
