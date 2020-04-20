@@ -73,25 +73,25 @@ For testing you should use [Flipper](https://fbflipper.com/) which is shipped by
 ├── index.js
 └── package.json
 ```
-`.jest`- Jest folder including cache.
-`.circleci`- CircleCI configuration.
-`android`- Android files.
-`docs`- Place for additional docs.
-`e2e`- Detox e2e tests directory.
-`ios`- IOS files.
-`patches`- In case any patches needed place them here.
-`scripts`- Place for custom scripts ex to clean react or Xcode.
-`scr`- Main application directory.
-`scr/assets`- Assets directory (images, fonts).
-`scr/common`- Common logic like hooks, locale, styles or utils.
-`scr/components`- Shared components directory.
-`scr/navigation`- Navigation config directory.
-`scr/screen`- Application's screens. Screen specific components should be place in its directory under components/.
-`scr/services`- Services like auth0, location, wifi or handling offline state.
-`scr/state`- Application's state.
-`scr/stories`- Storybook stories.
-`scr/storybook`- Storybook config and stories.
-`scr/types`- Application's shared types.
+`.jest`- Jest folder including cache.\
+`.circleci`- CircleCI configuration.\
+`android`- Android files.\
+`docs`- Place for additional docs.\
+`e2e`- Detox e2e tests directory.\
+`ios`- IOS files.\
+`patches`- In case any patches needed place them here.\
+`scripts`- Place for custom scripts ex to clean react or Xcode.\
+`scr`- Main application directory.\
+`scr/assets`- Assets directory (images, fonts).\
+`scr/common`- Common logic like hooks, locale, styles or utils.\
+`scr/components`- Shared components directory.\
+`scr/navigation`- Navigation config directory.\
+`scr/screen`- Application's screens. Screen specific components should be place in its directory under components/.\
+`scr/services`- Services like auth0, location, wifi or handling offline state.\
+`scr/state`- Application's state.\
+`scr/stories`- Storybook stories.\
+`scr/storybook`- Storybook config and stories.\
+`scr/types`- Application's shared types.\
 
 ### Navigation
 [React navigation](https://reactnavigation.org/) is used as an app navigation.
@@ -104,10 +104,10 @@ The navigation switches between:
 
 TODO Add state and splash screen.
 ### Styles
-[babel-plugin-react-native-class-prop](https://github.com/zeljkoX/babel-plugin-react-native-class-prop) is used to add 'class' prop. Its configuration can be found in `babel.config.js`.
-[Tachyons](http://tachyons.io/) classes are available to use (check tachyons.ts id `src/common/styles`).
-Styles specific for a project should be added same way as tachyons classes in its dedicated file e.g. `projectName.ts` and then imported in `src/common/styles/styles.ts`. Here also define Colors and Fonts classes.
-Added class prop definition for Typescript in `types/index.d.ts`.
+[babel-plugin-react-native-class-prop](https://github.com/zeljkoX/babel-plugin-react-native-class-prop) is used to add 'class' prop. Its configuration can be found in `babel.config.js`.\
+[Tachyons](http://tachyons.io/) classes are available to use (check tachyons.ts id `src/common/styles`).\
+Styles specific for a project should be added same way as tachyons classes in its dedicated file e.g. `projectName.ts` and then imported in `src/common/styles/styles.ts`. Here also define Colors and Fonts classes.\
+Added class prop definition for Typescript in `types/index.d.ts`.\
 TODO Add class names handler do join styles and class props. For now use class prop AFTER style prop.
 ### State
 TODO Mobx
