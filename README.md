@@ -111,9 +111,10 @@ Added class prop definition for Typescript in `types/index.d.ts`.
 TODO Add class names handler do join styles and class props. For now use class prop AFTER style prop. 
 TODO Fix metro bundler!
 ### API
-[axios]() is main API client. A basic API wrapper is provided in `src/common`.\
+[axios]() is the main API client.\
+A basic API wrapper is provided in `src/common`.\
 Based on this [example](https://gist.github.com/sheharyarn/7f43ef98c5363a34652e60259370d2cb). Follow 'Proper Usage' by
-creating a separate service for your API calls under `services/api/ModuleAPIService.ts`.\
+creating a separate service for your API calls under `services/api/ModuleAPIService.ts`.
 ### State
 TODO Mobx
 ### Environment Variables
