@@ -106,11 +106,11 @@ TODO Add state and splash screen.
 ### Styles
 TODO
 ### State
-TODO
+TODO Mobx
 ### API
 TODO Add axios
 ### Error boundary
-TODO Add ErrorBoundary component to wrap application and send errors to (Sentry)[https://sentry.io/for/react-native/] as well to analytics.
+TODO Add ErrorBoundary component to wrap application and send errors to [Sentry](https://sentry.io/for/react-native/) as well to analytics.
 ### Internationalization
 TODO
 ### Environment Variables
@@ -129,6 +129,8 @@ TODO
 TODO
 
 ## Next steps to customize this boilerplate
+### IMPORTANT Edit bundle id and package name
+TODO
 ### Add custom styles and fonts
 TODO
 ### Edit app.json
